@@ -14,18 +14,23 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//= require jquery
+//= require bootstrap-sprockets
 //= require_tree .
 
+//アラート表示
 var title = "javascriptが使えるようになりました！";
 alert(title);
 
-$(document).ready(function () {
+//.jqueryクラスの文字をクリックするとオレンジ色に変化する
+$(function () {
   $('.jquery').on('click', function(){
     $(this).css('color','orange');
   });
 });
 
-$(document).ready(function () {
+//スライドショーskippr
+$(function () {
   $("#theTarget").skippr({
     // スライドショーの変化 ("fade" or "slide")
     transition : 'slide',
