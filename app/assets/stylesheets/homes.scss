@@ -2,8 +2,19 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+//homes全体のcss
 h1 {
   font-size: 80px;
   text-align: center;
   margin: 50px auto;
+}
+
+//aboutページのcss
+.about-container {
+  width: 100%;
+}
+
+.about-main-title {
+  text-align: center;
+  margin: 30px auto;
 }
