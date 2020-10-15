@@ -14,7 +14,32 @@ h1 {
   width: 100%;
 }
 
+.col-sm-2 {
+  height: 500px;
+  background-color: #FFCCE5;
+}
+
+.col-sm-8 {
+  height: 500px;
+  background-color: #CCE5FF;
+}
+
 .about-main-title {
   text-align: center;
   margin: 30px auto;
+}
+
+.sns-icon {
+  width: 220px;
+  display: flex;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.sns-icon-twitter {
+  padding-right: 10px;
+}
+
+.sns-icon-instagram {
+  padding-right: 10px;
 }
