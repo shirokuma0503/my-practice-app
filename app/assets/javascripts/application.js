@@ -24,7 +24,7 @@ alert(title);
 
 //.jqueryクラスの文字をクリックするとオレンジ色に変化する
 $(function () {
-  $('.jquery').on('click', function(){
+  $('.top-title').on('click', function(){
     $(this).css('color','orange');
   });
 });
@@ -39,7 +39,7 @@ $(function () {
     // easingの種類
     easing : 'easeOutQuart',
     // ナビゲーションの形("block" or "bubble")
-    navType : 'block',
+    navType : 'bubble',
     // 子要素の種類('div' or 'img')
     childrenElementType : 'div',
     // ナビゲーション矢印の表示(trueで表示)
