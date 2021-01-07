@@ -1,24 +1,8 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# my-practice-app
+#### 機能実装のお試し練習用リポジトリ
+* Javascript：アラート表示させる
+* Javascript：クリック時に文字色を変える
+* Bootstrapの練習
+* deviseを追加する
+* Skipprでスライドショーを追加する
+* FontAwesomeでアイコンを追加する
