@@ -6,7 +6,29 @@
 h1 {
   font-size: 80px;
   text-align: center;
-  margin: 50px auto;
+  margin: 0 auto;
+}
+
+//top
+//スライドショーのcss
+.slideshow{
+  height: 800px;
+}
+
+.image1 {
+  background-image: url(image1.jpg);
+}
+.image2 {
+  background-image: url(image2.jpg);
+}
+.image3 {
+  background-image: url(image3.jpg);
+}
+.image4 {
+  background-image: url(image4.jpg);
+}
+.image5 {
+  background-image: url(image5.jpg);
 }
 
 //aboutページのcss
