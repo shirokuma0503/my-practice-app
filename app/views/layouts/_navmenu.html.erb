@@ -1,7 +1,26 @@
 <!--ナビゲーションメニュー-->
 <div class="navmenu">
-  <div class="navmenu-button">
-    <i class="fa fa-home fa-4x navmenu-button-icon" aria-hidden="true"></i>
-    <p class="navmenu-button-title">家具</p>
+  <!--ロゴ・タイトル-->
+  <div class="navmenu__logo">
+    <%= image_tag 'logo.jpg', class:"navmenu__logo--image" %>
+    <p class="navmenu__logo--title">わたしのポケット</p>
+  </div>
+
+  <!--メニュー一覧-->
+  <div class="navmenu__button">
+    <i class="fas fa-home navmenu__button--icon"></i>
+    <p class="navmenu__button--title">　　家具　　</p>
+  </div>
+  <div class="navmenu__button">
+    <i class="fas fa-tshirt navmenu__button--icon"></i>
+    <p class="navmenu__button--title">　　洋服　　</p>
+  </div>
+  <div class="navmenu__button">
+    <i class="fas fa-palette navmenu__button--icon"></i>
+    <p class="navmenu__button--title">マイデザイン</p>
+  </div>
+  <div class="navmenu__button">
+    <i class="fas fa-hammer navmenu__button--icon"></i>
+    <p class="navmenu__button--title">　DIYレシピ　</p>
   </div>
 </div>

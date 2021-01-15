@@ -25,7 +25,7 @@ alert(title);
 //.jqueryクラスの文字をクリックするとオレンジ色に変化する
 $(function () {
   $('.top-title').on('click', function(){
-    $(this).css('color','orange');
+    $(this).css('color','#9B6708');
   });
 });
 
