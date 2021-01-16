@@ -67,4 +67,14 @@ body {
       font-size: 15px;
     }
   }
+
+  &__sns{
+    text-align: center;
+
+    &--icon {
+      margin: 30px 10px 10px 10px;
+      font-size: 50px;
+      color: #4D3304;
+    }
+  }
 }

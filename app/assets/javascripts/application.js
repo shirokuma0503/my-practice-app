@@ -1,3 +1,4 @@
+
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
 //
@@ -22,7 +23,7 @@
 var title = "javascriptが使えるようになりました！";
 alert(title);
 
-//.jqueryクラスの文字をクリックするとオレンジ色に変化する
+//.jqueryクラスの文字をクリックすると色が変化する
 $(function () {
   $('.top-title').on('click', function(){
     $(this).css('color','#9B6708');
@@ -52,5 +53,15 @@ $(function () {
     keyboardOnAlways : true,
     // 一枚目のスライド表示時に戻る矢印を表示するかどうか(falseで非表示)
     hidePrevious : false
+  });
+});
+
+//snsアイコンの色が変化
+$(function(){
+  $('.navmenu__sns--icon').mouseover(function(){
+    $('.navmenu__sns--icon').css({'color': '#1E8707'});
+  });
+  $('.navmenu__sns--icon').mouseout(function(){
+    $('.navmenu__sns--icon').css({'color': '#4D3304'});
   });
 });
