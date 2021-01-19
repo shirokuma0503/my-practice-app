@@ -40,7 +40,7 @@ body {
   &__logo {
     display: flex;
     justify-content: center;
-    margin: 10px auto 100px auto;
+    margin: 10px auto 50px auto;
 
     &--image {
       height: 80px;
@@ -69,6 +69,7 @@ body {
   }
 
   &__sns{
+    margin-top: 50px;
     text-align: center;
 
     &--icon {
