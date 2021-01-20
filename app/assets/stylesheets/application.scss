@@ -29,53 +29,96 @@ body {
     sans-serif;
 }
 
-//ナビゲーションメニュー
-.navmenu {
-  margin: 0 auto;
-  height: 100vh;
-  width: 300px;
-  position: fixed;
+//ロゴ
+.header {
   background-color: #E6DBC5;
+
+  &__menu > :first-child {
+    display: flex;
+    margin-right: auto;
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: flex-end;
+
+    &--icon {
+      margin-top: 10px;
+      margin-right: 40px;
+    }
+  }
+
 
   &__logo {
     display: flex;
-    justify-content: center;
-    margin: 10px auto 50px auto;
 
     &--image {
-      height: 80px;
-      width: 80px;
+      margin-left: 40px;
+      height: 100px;
+      width: 100px;
     }
 
     &--title {
-      font-size: 20px;
-      line-height: 80px;
-      color: #4D3304;
-    }
-  }
-
-  &__button {
-    margin-bottom: 30px;
-    text-align: center;
-    color: #4D3304;
-
-    &--icon {
+      line-height: 100px;
       font-size: 50px;
     }
-
-    &--title {
-      font-size: 15px;
-    }
   }
 
-  &__sns{
-    margin-top: 50px;
-    text-align: center;
+  &__tab {
 
-    &--icon {
-      margin: 30px 10px 10px 10px;
-      font-size: 50px;
-      color: #4D3304;
+    &--contents {
+      font-size: 30px;
     }
   }
+}
+
+//ナビゲーションメニュー
+.navmenu {
+//   margin: 0 auto;
+//   height: 100vh;
+//   width: 300px;
+//   position: fixed;
+//   background-color: #E6DBC5;
+
+  // &__logo {
+  //   display: flex;
+  //   justify-content: center;
+  //   margin: 10px auto 50px auto;
+
+    // &--image {
+    //   height: 80px;
+    //   width: 80px;
+    // }
+
+  //   &--title {
+  //     font-size: 20px;
+  //     line-height: 80px;
+  //     color: #4D3304;
+  //   }
+  // }
+
+//   &__button {
+//     margin-bottom: 30px;
+//     text-align: center;
+//     color: #4D3304;
+
+//     &--icon {
+//       font-size: 50px;
+//     }
+
+//     &--title {
+//       font-size: 15px;
+//     }
+//   }
+
+//   &__sns{
+//     margin-top: 50px;
+//     text-align: center;
+
+//     &--icon {
+//       margin: 30px 10px 10px 10px;
+//       font-size: 50px;
+//       color: #4D3304;
+//     }
+//   }
 }

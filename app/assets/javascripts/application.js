@@ -65,3 +65,14 @@ $(function(){
     $('.navmenu__sns--icon').css({'color': '#4D3304'});
   });
 });
+
+//ヘッダーのタブ表示
+$('#header__tab .header__tab--contents-box[id != "tab1"]').hide();
+
+$('.header__menu--contents i').on('click', function(event) {
+  $(".header__tab--contents-box .header__tab--contents").hide();
+  $(".header__menu--contents .active").removeClass("active");
+  $(this).addClass("active");
+  $($(this).attr("href")).show();
+  event.preventDefault();
+});
