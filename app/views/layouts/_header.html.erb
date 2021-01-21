@@ -1,72 +1,67 @@
-<div class="header">
-  <div class="header__menu">
-    <!--ロゴ・タイトル-->
-    <div class="header__menu--logo">
+<!--ヘッダー-->
+
+<header class="header navbar navbar-static-top">
+  <div class="header__menu container">
+    <%= link_to root_path, class: "header__logo", id: "logo" do %>
       <%= image_tag 'logo.jpg', class:"header__logo--image" %>
       <p class="header__logo--title">わたしのポケット</p>
-    </div>
-
-    <div clas="header__menu--contents">
-      <i class="fas fa-home fa-5x header__menu--icon"></i>
-      <p class="">　　家具　　</p>
-    </div>
-    <div clas="header__menu--contents">
-      <i class="fas fa-tshirt fa-5x header__menu--icon"></i>
-      <p class="">　　洋服　　</p>
-    </div>
-    <div clas="header__menu--contents">
-      <i class="fas fa-paint-roller fa-5x header__menu--icon"></i>
-      <p class="">壁紙・床板</p>
-    </div>
-    <div clas="header__menu--contents">
-      <i class="fas fa-hammer fa-5x header__menu--icon"></i>
-      <p class="">　レシピ　</p>
-    </div>
+    <% end %>
+    
+    <nav class="header__menu--tab">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-home fa-5x header__menu--icon"></i><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">大きめ</a></li>
+            <li><a href="#">小さめ</a></li>
+            <li><a href="#">壁かけ</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-tshirt fa-5x header__menu--icon"></i><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">トップス</a></li>
+            <li><a href="#">ボトムス</a></li>
+            <li><a href="#">ワンピース</a></li>
+            <li><a href="#">かぶりもの</a></li>
+            <li><a href="#">くつした</a></li>
+            <li><a href="#">アクセサリー</a></li>
+            <li><a href="#">くつ</a></li>
+            <li><a href="#">バッグ</a></li>
+            <li><a href="#">かさ</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-paint-roller fa-5x header__menu--icon"></i><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">壁紙</a></li>
+            <li><a href="#">床板</a></li>
+            <li><a href="#">ラグ</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-hammer fa-5x header__menu--icon"></i><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">アイアンウッド</a></li>
+            <li><a href="#">おうごん</a></li>
+            <li><a href="#">かいがら</a></li>
+            <li><a href="#">きのこ</a></li>
+            <li><a href="#">きのみ・おちば</a></li>
+            <li><a href="#">クリスマス</a></li>
+            <li><a href="#">こおり</a></li>
+            <li><a href="#">さくら</a></li>
+            <li><a href="#">たけ</a></li>
+            <li><a href="#">段ボール</a></li>
+            <li><a href="#">つみき</a></li>
+            <li><a href="#">はな</a></li>
+            <li><a href="#">フルーツ</a></li>
+            <li><a href="#">ほし</a></li>
+            <li><a href="#">まるた</a></li>
+            <li><a href="#">もくせい</a></li>
+            <li><a href="#"><トイ/a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
   </div>
-
-  <div id="header__tab">
-    <div id="tab1" class="header__tab--contents-box active">
-      <p class="header__tab--contents">大きめ</p>
-      <p class="header__tab--contents">小さめ</p>
-      <p class="header__tab--contents">壁かけ</p>
-    </div>
-
-    <div id="tab2" class="header__tab--contents-box">
-      <p class="header__tab--contents">トップス</p>
-      <p class="header__tab--contents">ボトムス</p>
-      <p class="header__tab--contents">ワンピース</p>
-      <p class="header__tab--contents">かぶりもの</p>
-      <p class="header__tab--contents">くつした</p>
-      <p class="header__tab--contents">アクセサリー</p>
-      <p class="header__tab--contents">くつ</p>
-      <p class="header__tab--contents">バッグ</p>
-      <p class="header__tab--contents">かさ</p>
-    </div>
-
-    <div id="tab3" class="header__tab--contents-box">
-      <p class="header__tab--contents">壁紙</p>
-      <p class="header__tab--contents">床板</p>
-      <p class="header__tab--contents">ラグ</p>
-    </div>
-
-    <div id="tab4" class="header__tab--contents-box">
-      <p class="header__tab--contents">アイアンウッド</p>
-      <p class="header__tab--contents">おうごん</p>
-      <p class="header__tab--contents">かいがら</p>
-      <p class="header__tab--contents">きのこ</p>
-      <p class="header__tab--contents">きのみ・おちば</p>
-      <p class="header__tab--contents">クリスマス</p>
-      <p class="header__tab--contents">こおり</p>
-      <p class="header__tab--contents">さくら</p>
-      <p class="header__tab--contents">たけ</p>
-      <p class="header__tab--contents">段ボール</p>
-      <p class="header__tab--contents">つみき</p>
-      <p class="header__tab--contents">はな</p>
-      <p class="header__tab--contents">フルーツ</p>
-      <p class="header__tab--contents">ほし</p>
-      <p class="header__tab--contents">まるた</p>
-      <p class="header__tab--contents">もくせい</p>
-      <p class="header__tab--contents">トイ</p>
-    </div>
-  </div>
-</div>
+</header>
