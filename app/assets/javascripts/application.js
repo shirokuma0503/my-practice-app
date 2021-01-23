@@ -19,10 +19,6 @@
 //= require bootstrap-sprockets
 //= require_tree .
 
-//アラート表示
-var title = "javascriptが使えるようになりました！";
-alert(title);
-
 //.jqueryクラスの文字をクリックすると色が変化する
 $(function () {
   $('.top-title').on('click', function(){
