@@ -6,5 +6,6 @@
 * Javascript：マウスアウト時に文字色を変える
 * Bootstrapの練習
 * deviseを追加する
+* ログインを名前とパスワードでできるように変更する
 * Skipprでスライドショーを追加する
 * FontAwesomeでアイコンを追加する
